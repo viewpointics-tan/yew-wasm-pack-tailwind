@@ -22,7 +22,7 @@ impl Component for App {
 
     fn view(&self) -> Html {
         html! {
-            <p>{ "Hello world!" }</p>
+            <p class="bg-red-500">{ "Hello world!" }</p>
         }
     }
 }
